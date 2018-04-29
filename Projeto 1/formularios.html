@@ -1,0 +1,43 @@
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<html>
+	<head>
+		<title>primeiro projeto</title>
+	    <meta charset="utf-8"/><!--configuração da meu doc html, aqui no caso estou ajustando o paramentro charset para utilzação de acentos e caracteres da lingua protuguesa-->
+	<head/>
+	<body>
+		<a href="index.html">Home</a>
+		<a href="contato.html">Contato</a>
+		<a href="tabela.html">Tabela</a>
+		<a href="">Formulários</a>
+		<a href="caracteres_especiais.html">Caracteres especiais</a>
+		<h1>Formulário</h1>
+		<form><!-- tag usada para fazer formulários-->
+			LOGIN:<br/>
+			<input type="text" name="login" /><br/><!-- tag <input> utilizada para cirar um campo de formulário, atributo type é o tipo de informação a ser colocada,texto, senha e etc..-->
+			SENHA:<br>
+			<input type="password" name="senha" /><br/><!--colocando no atributo name salbamos em uma variavel 'name' os dados colocados no espaço,podendo ser aproveitado por uma linguagem de programação=-->
+			<input type="Submit" value ="LOGIN"><!-- type button, cria um botao e value será o nome desse botao para submeter os dados para um banco de dados,basta colocar o type "Submit"-->
+		</form>
+		<form>
+			Digite o seu nome:<br/>
+			<input type="text"/><br/>
+			Marque o seu sexo:<br/>
+			<input type="radio" name="sexo">Masculino<br/><!-- type radio cria um botao de marcação e para o usuário marcar apenas uma opação, os radios devem ter o mesmo nome (bolinha )-->
+			<input type="radio" name="sexo">Feminino<br/>
+			Interesses:<br/>
+			<input type="checkbox">futebol<br/><!-- type checkbox é normalmente utilizada para o usuário deseja marcar mais de uma opção(quadradinho)-->
+			<input type="checkbox">arte<br/>
+			<input type="checkbox">filmes<br/>
+			Seu seu estado:<br/>
+			<select><!-- tag select usada para fazer uma estrutura de seleção com varias opções-->
+				<option>SP</option><!--tag opyion usada para mostrar cada opção-->
+				<option>MG</option>
+				<option>RJ</option>
+				<option>ES</option>
+			</select><br/>
+			Observações:<br/>
+			<textarea></textarea><br/><!--tag para abrir espaços para escrever mais caracteres-->
+			<input type="button" value="cadastrar">
+		</form>
+	</body>
+<html>		

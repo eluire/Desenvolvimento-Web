@@ -1,0 +1,44 @@
+<!DOCTYPE html><!-- doctype do HTML5 -->
+<html>
+	<head>
+		<title>Tabelas</title>
+	    <meta charset="utf-8"/><!--configuração da meu doc html, aqui no caso estou ajustando o paramentro charset para utilzação de acentos e caracteres da lingua protuguesa-->
+	<head/>
+	<body>
+		<a href="index.html">Home</a>
+		<a href="contato.html">Contato</a>
+		<a href="">Tabela</a>
+		<a href="formularios.html">Formulários</a>
+		<a href="caracteres_especiais.html">Caracteres especiais</a>
+		<h1>produtos</h1>
+		<table border="1" width="100%"><!-- tag para criar tabela, com alguns atributos,e a largura 100% significa que a tabela ira ocupar 100 pcento da tela do browser-->
+			<tr><!-- tag para criar uma linha nova -->
+				<th>Código</th>
+				<th>Produtos</th><!-- tag para diferenciar o cabeçalho das minha tabelas, para centralizalos e destacalos-->
+				<th>Preço</th>
+			</tr>
+			<tr>
+				<td>00000000012</td><!-- tag para criar uma celula da minha tabela-->
+				<td>NOTEBOOK</td>
+				<td>R$ 1200</td>
+			</tr>
+			<tr>
+				<td>00000000014</td>
+				<td>TABLET</td>
+				<td>R$ 500</td>
+			</tr>
+			<tr>
+				<td colspan="2">Total</td><!--atributo colspan alonga o espaço da celula, agora ela ocupa duas celulas(colunas)-->
+				<td>R$ 1700</td>
+			</tr>
+			<tr>
+				<td rowspan="2">Desconto</td><!--atributo para alongar as linhas-->
+				<td colspan="2">cupom1: -10R$</td>
+			</tr>
+			<tr>
+				<td colspan="2">Cupom2:-R$15</td>
+			</tr>
+		</table>
+
+	</body>
+</html>		
